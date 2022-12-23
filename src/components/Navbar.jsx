@@ -11,12 +11,12 @@ const Navbar = () => {
         <div className="nav">
             <ul>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="history">History</NavLink>
-                <NavLink to = "admission">Amission</NavLink>
-                <NavLink to = "about_us">About us</NavLink>
-                <NavLink to = "gallery">Gallery</NavLink>
-                <NavLink to = "contact">Contact</NavLink>
-                <NavLink to = "login">Login Dashboard</NavLink>
+                <NavLink to="/history">History</NavLink>
+                <NavLink to = "/admission">Amission</NavLink>
+                <NavLink to = "/about_us">About us</NavLink>
+                <NavLink to = "/gallery">Gallery</NavLink>
+                <NavLink to = "/contact">Contact</NavLink>
+                <NavLink to = "/login">Login Dashboard</NavLink>
                 <img src="" alt="search" />
             </ul>
         </div>
