@@ -64,7 +64,6 @@ html{
     display: flex;
     align-items: center;
     background-color: var(--first-color);
-    margin-bottom: var(--mb-2);
 }
 .head{
     min-height: var(--header-height);
