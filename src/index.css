@@ -63,7 +63,7 @@ html{
 .block-header{
     display: flex;
     align-items: center;
-    background-color: var(--first-color);
+    /* background-color: var(--first-color); */
 }
 .head{
     min-height: var(--header-height);
@@ -134,4 +134,7 @@ html{
      .noshw{
         right: -900px;
      }
+ }
+ .btn{
+    background-color: red;
  }
