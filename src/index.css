@@ -137,4 +137,8 @@ html{
  }
  .btn{
     background-color: red;
+    position: unset;
+    margin-right: auto;
+    margin-left: auto;
+
  }
