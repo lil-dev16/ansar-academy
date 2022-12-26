@@ -13,7 +13,7 @@ const Hero = () => {
               alias error dolor, natus, amet inventore. 
               Et exercitationem hic reprehenderit totam,
                error numquam iste aut tenetur perspiciatis
-            eveniet harum fugiat voluptates sit suscipit amet fuga dolor!</p>
+            eveniet harum fugiat voluptates sit suscipit amet dolor!</p>
             <button className='btn p-[.7rem] rounded-md my-[1rem] mr-[0]'>Learn More</button>
         </div>
     </div>
