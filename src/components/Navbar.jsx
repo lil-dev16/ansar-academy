@@ -29,7 +29,7 @@ const Navbar = () => {
     console.log(showSidebar);
   }
   return (
-    <div className='nav__container fixed'>
+    <div className='nav__container fixed w-[100%]'>
         <div className="block-header ">
           <div className='bg-r head'>
             {/* <img src="logo" alt="" /> */}
