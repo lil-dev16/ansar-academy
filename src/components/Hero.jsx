@@ -15,6 +15,20 @@ const Hero = () => {
                error numquam iste aut tenetur perspiciatis
             eveniet harum fugiat voluptates sit suscipit amet dolor!</p>
             <button className='btn p-[.7rem] rounded-md my-[1rem] mr-[0]'>Learn More</button>
+            <div className="wavy-sec">
+              <div className="circ-con">
+                <div className="circle"></div>
+                <p>Quality Education</p>
+              </div>
+              <div className="circ-con">
+                <div className="circle"></div>
+                <p>Quality Education</p>
+              </div>
+              <div className="circ-con">
+                <div className="circle"></div>
+                <p>Quality Education</p>
+              </div>
+            </div>
         </div>
     </div>
   )
