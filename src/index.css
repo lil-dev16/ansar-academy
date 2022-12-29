@@ -154,4 +154,5 @@ html{
  }
  .nav__container{
     background-color: red;
+    z-index: 9999;
  }
