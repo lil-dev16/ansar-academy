@@ -145,3 +145,7 @@ html{
  .circle{
     background-color: #4070F4;
  }
+ .box{
+    background-color: red;
+    padding: 3rem;
+ }

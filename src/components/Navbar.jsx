@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import {BsSearch} from 'react-icons/bs'
+import {gsap} from 'gsap'
 
 
 const Navbar = () => {
@@ -33,13 +34,13 @@ const Navbar = () => {
         </div>
         <div className={`${showSidebar ? 'shw' : 'noshw'} nav bg-r`}>
             <ul className= ' nav__content'>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/history">History</NavLink>
-                <NavLink to = "/admission">Admission</NavLink>
-                <NavLink to = "/about_us">About us</NavLink>
-                <NavLink to = "/gallery">Gallery</NavLink>
-                <NavLink to = "/contact">Contact</NavLink>
-                <NavLink to = "/login">Login Dashboard</NavLink>
+                <NavLink to="/" className="nav__item">Home</NavLink>
+                <NavLink to="/history" className="nav__item">History</NavLink>
+                <NavLink to = "/admission" className="nav__item">Admission</NavLink>
+                <NavLink to = "/about_us" className="nav__item">About us</NavLink>
+                <NavLink to = "/gallery" className="nav__item">Gallery</NavLink>
+                <NavLink to = "/contact" className="nav__item">Contact</NavLink>
+                <NavLink to = "/login" className="nav__item">Login Dashboard</NavLink>
                 <BsSearch />
             </ul>
         </div>
@@ -47,5 +48,6 @@ const Navbar = () => {
     </div>
   )
 }
+gsap.from('.nav__item', {opacity: 0, duration: 3, delay: 3, y: 25, ease:'expo.out', stagger: .2})
 
 export default Navbar
