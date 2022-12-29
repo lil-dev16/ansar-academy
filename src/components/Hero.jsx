@@ -10,7 +10,7 @@ const Hero = () => {
     gsap.from('.btn', {opacity:0, duration:2, delay: 2, y: 45 });
   }, [])
   return (
-    <div className='bg-gradient-to-r from-purple-500 to-pink-500 min-h-[50vh] mt-[8rem]'>
+    <div className='bg-gradient-to-r from-purple-500 to-pink-500 min-h-[50vh] md:mt-[8rem]'>
         <div className='bg-r grid pb-[2rem] '>
 
         <h1 className='text-3xl font-bold text-center py-[2rem] hero-header'>Empowering Student knowledge</h1>

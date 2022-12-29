@@ -106,7 +106,7 @@ html{
     width: inherit;
     background-color: var(--second-color);
 }
- @media screen and (max-width: 760px){
+ @media screen and (max-width: 766px){
     .head{
         justify-content: space-between;
     }
