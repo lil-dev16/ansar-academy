@@ -21,7 +21,7 @@ const Navbar = () => {
   });
   useEffect(()=> {
     gsap.from('.nav__item', {opacity: 0, duration: 3, delay: 2, y: 25, ease:'expo.out', stagger: .2});
-    gsap.from('.school_name', {opacity: 0, duration: 3, delay: 3, y: 25, ease:'expo.out'})
+    gsap.from('.school_name', {opacity: 0, duration: 3, delay: 1, y: 25, ease:'expo.out'})
   }, [])
 
   const handleClick = () => {
