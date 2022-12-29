@@ -1,4 +1,5 @@
 import React from 'react'
+import {gsap} from 'gsap'
 
 const Hero = () => {
   return (
@@ -33,5 +34,7 @@ const Hero = () => {
     </div>
   )
 }
+
+gsap.from('.circ-con', {opacity:0, duration:2, delay: 2, y: 45, stagger: .2});
 
 export default Hero

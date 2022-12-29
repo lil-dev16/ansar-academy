@@ -23,6 +23,5 @@ const Goals = () => {
     </div>
   )
 }
-gsap.from('.box', {opacity: 0, duration: 2, delay: 2, x: 60})
-gsap.from('.bg-r', {opacity: 0, duration: 2, delay: 2, y: 25})
+gsap.from('.box', {opacity: 0, duration: 2, delay: 2, y: 60, stagger: .2})
 export default Goals

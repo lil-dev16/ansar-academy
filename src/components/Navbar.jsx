@@ -24,7 +24,7 @@ const Navbar = () => {
     console.log(showSidebar);
   }
   return (
-    <div className='nav__container'>
+    <div className='nav__container overflow-hidden'>
         <div className="block-header ">
           <div className='bg-r head'>
             {/* <img src="logo" alt="" /> */}
@@ -33,7 +33,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`${showSidebar ? 'shw' : 'noshw'} nav bg-r`}>
-            <ul className= ' nav__content'>
+           <ul className= ' nav__content'>
                 <NavLink to="/" className="nav__item">Home</NavLink>
                 <NavLink to="/history" className="nav__item">History</NavLink>
                 <NavLink to = "/admission" className="nav__item">Admission</NavLink>
