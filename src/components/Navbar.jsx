@@ -11,6 +11,7 @@ const Navbar = () => {
     setWidth(window.innerWidth)
   }
   useEffect(()=> {
+    
     window.addEventListener('resize', checkResize)
     console.log(width);
     return () => {
@@ -18,6 +19,10 @@ const Navbar = () => {
     }
       
   });
+  useEffect(()=> {
+    gsap.from('.nav__item', {opacity: 0, duration: 3, delay: 2, y: 25, ease:'expo.out', stagger: .2});
+    gsap.from('.school_name', {opacity: 0, duration: 3, delay: 3, y: 25, ease:'expo.out'})
+  }, [])
 
   const handleClick = () => {
     setShowSidebar(prev => !prev)
@@ -28,7 +33,7 @@ const Navbar = () => {
         <div className="block-header ">
           <div className='bg-r head'>
             {/* <img src="logo" alt="" /> */}
-            <h1>ANSAR-UD-DEEN ACADEMY</h1>
+            <h1 className='school_name'>ANSAR-UD-DEEN  ACADEMY</h1>
           {width < 760 && <div className="hamburger" onClick={handleClick}></div>}
           </div>
         </div>
@@ -48,6 +53,5 @@ const Navbar = () => {
     </div>
   )
 }
-gsap.from('.nav__item', {opacity: 0, duration: 3, delay: 3, y: 25, ease:'expo.out', stagger: .2})
 
 export default Navbar

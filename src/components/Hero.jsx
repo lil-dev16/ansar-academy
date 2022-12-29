@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {gsap} from 'gsap'
 
 const Hero = () => {
+
+  useEffect(()=> {
+    gsap.from('.circ-con', {opacity:0, duration:2, delay: 2, y: 45, stagger: .2});
+  }, [])
   return (
     <div className='bg-gradient-to-r from-purple-500 to-pink-500 min-h-[50vh] '>
         <div className='bg-r grid pb-[2rem] '>
@@ -35,6 +39,6 @@ const Hero = () => {
   )
 }
 
-gsap.from('.circ-con', {opacity:0, duration:2, delay: 2, y: 45, stagger: .2});
+
 
 export default Hero
