@@ -15,17 +15,17 @@ const Hero = () => {
                error numquam iste aut tenetur perspiciatis
             eveniet harum fugiat voluptates sit suscipit amet dolor!</p>
             <button className='btn p-[.7rem] rounded-md my-[1rem] mr-[0]'>Learn More</button>
-            <div className="wavy-sec">
-              <div className="circ-con">
-                <div className="circle"></div>
+            <div className="wavy-sec flex justify-between h-[50vh] mt-[2rem]">
+              <div className="circ-con flex flex-col items-center gap-[20px]">
+                <div className="circle w-[200px] h-[200px] "></div>
                 <p>Quality Education</p>
               </div>
-              <div className="circ-con">
-                <div className="circle"></div>
+              <div className="circ-con flex flex-col items-center gap-[20px] mt-[4rem]">
+                <div className="circle w-[200px] h-[200px]"></div>
                 <p>Quality Education</p>
               </div>
-              <div className="circ-con">
-                <div className="circle"></div>
+              <div className="circ-con flex flex-col items-center gap-[20px] mt-[2.5rem]">
+                <div className="circle w-[200px] h-[200px]"></div>
                 <p>Quality Education</p>
               </div>
             </div>
