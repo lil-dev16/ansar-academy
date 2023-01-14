@@ -1,6 +1,5 @@
 import React from 'react'
 import About from '../components/About'
-import FeeSubmission from '../components/FeeSubmission'
 import Goals from '../components/Goals'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
@@ -12,7 +11,6 @@ const Home = () => {
         <Hero />
         <Goals />
         <About />
-        <FeeSubmission />
     </div>
   )
 }

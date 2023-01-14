@@ -4,10 +4,6 @@ import {gsap} from 'gsap'
 const Hero = () => {
 
   useEffect(()=> {
-    gsap.from('.circ-con', {opacity:0, duration:2, delay: 2, y: 45, stagger: .2});
-    gsap.from('.hero-header', {opacity:0, duration:2, delay: 1, y: 45 });
-    gsap.from('.hero-text', {opacity:0, duration:2, delay: 2, y: 45 });
-    gsap.from('.btn', {opacity:0, duration:2, delay: 2, y: 45 });
   }, [])
   return (
     <div className='bg-gradient-to-r from-purple-500 to-pink-500 min-h-[50vh] md:mt-[8rem] pt-[5rem]'>
@@ -41,6 +37,10 @@ const Hero = () => {
     </div>
   )
 }
+gsap.from('.circ-con', {opacity:0, duration:2, delay: 2, y: 45, stagger: .2});
+gsap.from('.hero-header', {opacity:0, duration:2, delay: 1, y: 45 });
+gsap.from('.hero-text', {opacity:0, duration:2, delay: 2, y: 45 });
+gsap.from('.btn', {opacity:0, duration:2, delay: 2, y: 45 });
 
 
 
